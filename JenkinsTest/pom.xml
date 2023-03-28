@@ -4,7 +4,6 @@
 	<artifactId>JenkinsTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -22,9 +21,10 @@
 						<manifest>
 							<mainClass>jenkinspackage.TestJenkins</mainClass>
 						</manifest>
-						</archive>
+					</archive>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
 </project>
